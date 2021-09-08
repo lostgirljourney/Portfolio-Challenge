@@ -1,0 +1,149 @@
+.project-card {
+	margin: 36px auto 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 22px;
+	background-color: #ffffff;
+	border-radius: 12px;
+}
+
+.project-pic {
+	border-radius: 12px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.detail {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 33px;
+	height: 100%;
+}
+
+.pro-name {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #333333;
+	margin-bottom: 3px;
+}
+
+.tag {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4f4f4f;
+}
+
+.project-details {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #828282;
+}
+
+button {
+	cursor: pointer;
+}
+
+.demo {
+	width: 135px;
+	height: 46px;
+	background-color: #2f80ed;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	line-height: 22px;
+	border-radius: 12px;
+	border: none;
+}
+
+.demo:hover,
+.demo:focus {
+	background-color: #0039cb;
+}
+
+.code {
+	width: 135px;
+	height: 46px;
+	background-color: #ffffff;
+	color: #2f80ed;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	line-height: 22px;
+	border-radius: 12px;
+	border: 1px solid #2f80ed;
+	box-sizing: border-box;
+	margin-left: 11px;
+}
+
+.code:hover,
+.code:focus {
+	background-color: rgba(41, 98, 255, 0.1);
+}
+
+@media only screen and (min-width: 1070px) {
+	.project-card {
+		height: 311px;
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 1070px) {
+	.project-card {
+		width: 800px;
+	}
+
+	.detail {
+		margin-left: 30px;
+	}
+
+	.project-pic {
+		width: 485px;
+	}
+}
+
+@media only screen and (max-width: 870px) {
+	.project-card {
+		margin: 25px auto 0;
+		width: 450px;
+		height: auto;
+		flex-direction: column;
+		padding: 22px 22px 27px;
+	}
+
+	.detail {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 23px;
+	}
+
+	.project-pic {
+		width: 100%;
+		height: 100%;
+	}
+
+	.tag {
+		margin-bottom: 22px;
+	}
+
+	.pro-name {
+		margin-bottom: 18px;
+	}
+
+	.project-details {
+		margin-bottom: 41px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.project-card {
+		width: 330px;
+	}
+}

@@ -1,0 +1,139 @@
+.skill-card {
+	margin: 92px auto 0;
+	display: flex;
+	flex-direction: column;
+	padding: 22px;
+	height: 185px;
+	background-color: #ffffff;
+	border-radius: 12px;
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skill-p {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #4f4f4f;
+	margin-bottom: 22px;
+}
+
+.row-s {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.row1 {
+	margin-right: 12.5px;
+	width: 100%;
+}
+
+.row2 {
+	margin-left: 12.5px;
+	width: 100%;
+}
+
+.skill-badge {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+.pro-ind {
+	position: relative;
+}
+
+.progress {
+	width: 348px;
+	border-style: none;
+	border-top: #c4c4c4 9px solid;
+	border-radius: 12px;
+}
+
+.indicator {
+	border-style: none;
+	border-top: #2f80ed 9px solid;
+	border-radius: 12px;
+	position: absolute;
+	top: 0;
+}
+
+.i1,
+.i4 {
+	width: 228px;
+}
+
+.i2,
+.i5 {
+	width: 292px;
+}
+
+.i3,
+.i6 {
+	width: 321px;
+}
+
+.skill-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #4f4f4f;
+}
+
+@media only screen and (min-width: 980px) {
+	.skill-card {
+		height: auto;
+		width: 900px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.skill-card {
+		margin: 25px auto 0;
+		width: 450px;
+		height: auto;
+		padding: 22px;
+	}
+
+	.skills {
+		flex-direction: column;
+	}
+
+	.row-s {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.skill-card {
+		width: 330px;
+	}
+
+	.progress {
+		width: 222px;
+	}
+
+	.i1,
+	.i4 {
+		width: 146px;
+	}
+
+	.i2,
+	.i5 {
+		width: 186px;
+	}
+
+	.i3,
+	.i6 {
+		width: 205px;
+	}
+}
