@@ -70,7 +70,7 @@ const all = [
 		name: "Portfolio",
 		details:
 			"In this project, I work with React.JS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
-		demo: `${baseURL}Portfolio-Challenge`,
+		demo: "https://portfolio-challenge-lostgirljourney.vercel.app/",
 		code: `${baseURL}Portfolio-Challenge`,
 	},
 	{
@@ -109,7 +109,7 @@ const react = [
 		name: "Portfolio",
 		details:
 			"In this project, I work with React.JS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
-		demo: `${baseURL}Portfolio-Challenge`,
+		demo: "https://portfolio-challenge-lostgirljourney.vercel.app/",
 		code: `${baseURL}Portfolio-Challenge`,
 	},
 	{
